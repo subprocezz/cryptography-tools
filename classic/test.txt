@@ -1,0 +1,6 @@
+Trying all keys from dictionary: dic.txt
+Key 'pene': faxpm
+Key 'cuca': skitz
+Key 'ivan': mjkgt
+Key 'nazi': hello
+Key 'hitler': nwrix
