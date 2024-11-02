@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project provides a set of classic cryptographic algorithms implemented in Python, specifically focusing on three ciphers: Caesar Cipher, Vigenère Cipher, and Scytale Cipher. Each algorithm allows for encryption and decryption of text, as well as brute-force attacks to find keys.
+This project provides a set of classic cryptographic algorithms implemented in Python, specifically focusing on three ciphers: Caesar Cipher, Vigenère Cipher, and Nihilist cipher. Each algorithm allows for encryption and decryption of text, as well as brute-force attacks to find keys.
 
 ## Table of Contents
 
@@ -11,7 +11,7 @@ This project provides a set of classic cryptographic algorithms implemented in P
 - [Usage](#usage)
   - [Caesar Cipher](#caesar-cipher)
   - [Vigenère Cipher](#vigenère-cipher)
-  - [Scytale Cipher](#scytale-cipher)
+  - [Nihilist cipher](#nihilist-cipher)
 - [Examples](#examples)
 - [License](#license)
 
@@ -19,13 +19,13 @@ This project provides a set of classic cryptographic algorithms implemented in P
 
 - **Caesar Cipher**: Simple substitution cipher where each letter is shifted by a fixed number.
 - **Vigenère Cipher**: Uses a keyword to shift letters based on their position in the keyword.
-- **Scytale Cipher**: A transposition cipher that rearranges letters in a specified pattern.
+- **Nihilist cipher**: A transposition cipher that rearranges letters in a specified pattern.
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/cryptography-tools.git
+   git clone https://github.com/subprocezz/cryptography-tools.git
    ```
 2. Navigate into the project directory:
    ```bash
@@ -72,23 +72,18 @@ python classic/vigenere.py "your_text" -k your_key -d
 python classic/vigenere.py "cipher_text" -b path/to/dictionary.txt
 ```
 
-### Scytale Cipher
+### Nihilist cipher
 
-To encrypt or decrypt text using the Scytale Cipher:
+To encrypt or decrypt text using the Nihilist cipher:
 
 #### Encrypting Text
 ```bash
-python classic/scytale.py "your_text" -k key_value
+python classic/nihilist.py "your_text" -k key_value
 ```
 
 #### Decrypting Text
 ```bash
-python classic/scytale.py "your_text" -k key_value -d
-```
-
-#### Brute Force
-```bash
-python classic/scytale.py "cipher_text" -b
+python classic/nihilist.py "your_text" -k key_value -d
 ```
 
 ## Examples
@@ -107,9 +102,9 @@ Here are a few examples of how to use the ciphers:
   ```
   
 
-- **Scytale Cipher**:
+- **Nihilist cipher**:
   ```bash
-  python classic/scytale.py "hello" -k 3
+  python classic/nihilist.py "hello" -k 3
   ```
   
 
