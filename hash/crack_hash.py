@@ -33,7 +33,7 @@ def crack_hash(target_hash: str, wordlist_file: str, algorithm: str) -> str:
 def main() -> None:
     parser = argparse.ArgumentParser(description='Crack a hash using a wordlist.')
     parser.add_argument('hash', type=str, help='The hash to crack.')
-    parser.add_argument('wordlist', type=str, help='Path to the wordlist file.')
+    parser.add_argument('-w', '--wordlist', type=str, help='Path to the wordlist file.')
     parser.add_argument('-a', '--algorithm', type=str, default='md5',
                         choices=['md5', 'sha1', 'sha256', 'sha512'],
                         help='Hash algorithm to use (default: md5).')
