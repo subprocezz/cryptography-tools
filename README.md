@@ -136,6 +136,15 @@ python hash/crack_hash.py "your_hash" -a md5 -w rockyou.txt
 python hash/crack_hash.py "your_hash" -w rockyou.txt
 ```
 
+### AES Cipher
+
+It allows users to encrypt or decrypt text using a specified key of 16, 24, or 32 bytes.
+
+#### Usage
+```bash
+python symmetric/AES.py "your_text" -k "your_key"
+```
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
